@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "contract": "ruflo.mission-observation/1",
+  "source": "ruflo-cli/missions",
+  "workspaceId": "ws_b2c667b9c29a8849",
+  "observedAt": "2026-11-12T19:02:00.471Z",
+  "truncated": false,
+  "missions": [
+    {
+      "missionId": "msn_2dc10ea38db3f82939152a58",
+      "objective": "Bouw een eenvoudige takenlijst-webpagina (index.html met HTML, CSS en JavaScript) waarin je taken kunt toevoegen, afvinken en verwijderen, met een README en een kleine test die de takenlogica controleert.",
+      "state": "planned",
+      "revision": 2,
+      "executionMode": "session-bound",
+      "plan": {
+        "revision": 1,
+        "digest": "sha256:9ab415a3176dcad72c854eb372911c8aee7038ee4db75d2b5218c22985299bfb",
+        "taskCount": 4,
+        "tasks": [
+          {
+            "id": "t1",
+            "title": "Plan: ontwerp van de takenlijst vastleggen",
+            "dependsOn": [],
+            "status": "pending"
+          },
+          {
+            "id": "t2",
+            "title": "Bouw: index.html met toevoegen, afvinken en verwijderen",
+            "dependsOn": [
+              "t1"
+            ],
+            "status": "pending"
+          },
+          {
+            "id": "t3",
+            "title": "Test: takenlogica controleren",
+            "dependsOn": [
+              "t2"
+            ],
+            "status": "pending"
+          },
+          {
+            "id": "t4",
+            "title": "Review: code nalopen en README schrijven",
+            "dependsOn": [
+              "t3"
+            ],
+            "status": "pending"
+          }
+        ]
+      },
+      "budget": {
+        "currency": "USD",
+        "ceilingMinor": 875,
+        "estimatedMinor": 700,
+        "reservedMinor": 0,
+        "settledMinor": 0,
+        "unresolvedMinor": 0
+      },
+      "evidence": {
+        "count": 0,
+        "verified": 0
+      },
+      "executor": null,
+      "unresolvedOperations": 0,
+      "blockedReason": null,
+      "lastEventSequence": 2,
+      "updatedAt": "2026-11-12T19:02:00.471Z"
+    }
+  ]
+}
