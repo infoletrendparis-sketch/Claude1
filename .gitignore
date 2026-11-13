@@ -1,0 +1,4 @@
+# Ruflo runtime state: records session commands and prompts, so keep it out of git
+.swarm/
+.claude-flow/neural/
+.claude-flow/mods/
