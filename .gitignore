@@ -1,4 +1,4 @@
-# Ruflo runtime state: records session commands and prompts, so keep it out of git
+# Ruflo runtime state: rewritten on every command and records session activity, so keep it out of git
 .swarm/
-.claude-flow/neural/
-.claude-flow/mods/
+.claude-flow/*
+!.claude-flow/missions/
